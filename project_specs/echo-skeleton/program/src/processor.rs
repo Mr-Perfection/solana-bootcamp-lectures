@@ -7,6 +7,8 @@ use solana_program::{
 use crate::error::EchoError;
 use crate::instruction::EchoInstruction;
 
+pub mod initialize_authorized_echo;
+
 pub struct Processor {}
 
 impl Processor {
